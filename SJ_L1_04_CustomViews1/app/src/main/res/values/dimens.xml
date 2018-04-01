@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titulo">50sp</dimen>
+    <dimen name="subtitulo">30sp</dimen>
+    <dimen name="signin">25sp</dimen>
+
+    <dimen name="margenTop">3dp</dimen>
+    <dimen name="margenBottom">10dp</dimen>
+    <dimen name="margen">20dp</dimen>
+    <dimen name="terminos">11sp</dimen>
+
+    <dimen name="barraAncho">60dp</dimen>
+    <dimen name="barraAlto">3dp</dimen>
+</resources>

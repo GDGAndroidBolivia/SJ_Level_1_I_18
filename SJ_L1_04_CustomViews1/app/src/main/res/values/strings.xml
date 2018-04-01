@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CustomViews 1</string>
+
+    <string name="titulo">Bienvenido</string>
+    <string name="subtitulo">Tu red social preferida</string>
+    <string name="signin">Registro</string>
+    <string name="fullname">Nombre completo</string>
+    <string name="email">Correo electronico</string>
+    <string name="number">Numero celular</string>
+    <string name="login">Registrarse</string>
+    <string name="desc">Al confirmar el registro estas de acuerdo con nuestras </string>
+    <string name="privacy"><u>Politicas de privacidad</u> </string>
+    <string name="and">\u0020 como \u0020</string>
+    <string name="conditions"><u>los terminos y condiciones</u></string>
+</resources>
