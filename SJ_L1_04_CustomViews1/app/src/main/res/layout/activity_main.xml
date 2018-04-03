@@ -4,7 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:focusable="true"
-    android:focusableInTouchMode="true">
+    android:focusableInTouchMode="true"
+    android:background="@drawable/fondo">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:alpha="0.6"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,13 +30,17 @@
                     android:layout_height="wrap_content"
                     android:text="@string/titulo"
                     android:textSize="@dimen/titulo"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/colorWhite"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/subtitulo"
                     android:textSize="@dimen/subtitulo"
-                    android:layout_marginTop="@dimen/margenTop" />
+                    android:layout_marginTop="@dimen/margenTop"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/colorWhite"/>
                 <View
                     android:layout_width="@dimen/barraAncho"
                     android:layout_height="@dimen/barraAlto"
@@ -41,7 +52,8 @@
                     android:layout_height="wrap_content"
                     android:text="@string/signin"
                     android:textSize="@dimen/signin"
-                    android:gravity="center_horizontal"/>
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/colorWhite"/>
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -49,7 +61,13 @@
                     android:layout_marginRight="@dimen/margen"
                     android:layout_marginLeft="@dimen/margen"
                     android:layout_marginTop="@dimen/margenTop"
-                    android:inputType="textCapWords"/>
+                    android:inputType="textCapWords"
+                    android:textColor="@color/colorWhite"
+                    android:drawableLeft="@drawable/ic_person"
+                    android:drawableTint="@color/colorWhite"
+                    android:backgroundTint="@color/colorWhite"
+                    android:textColorHint="@color/colorWhite"
+                    android:drawablePadding="10dp"/>
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -58,7 +76,12 @@
                     android:layout_marginRight="@dimen/margen"
                     android:layout_marginLeft="@dimen/margen"
                     android:layout_marginTop="@dimen/margenTop"
-                    android:inputType="textEmailAddress"/>
+                    android:inputType="textEmailAddress"
+                    android:drawableLeft="@drawable/ic_email"
+                    android:drawableTint="@color/colorWhite"
+                    android:backgroundTint="@color/colorWhite"
+                    android:textColorHint="@color/colorWhite"
+                    android:drawablePadding="10dp"/>
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -67,7 +90,12 @@
                     android:layout_marginRight="@dimen/margen"
                     android:layout_marginLeft="@dimen/margen"
                     android:layout_marginTop="@dimen/margenTop"
-                    android:inputType="number"/>
+                    android:inputType="number"
+                    android:drawableLeft="@drawable/ic_phone"
+                    android:drawableTint="@color/colorWhite"
+                    android:backgroundTint="@color/colorWhite"
+                    android:textColorHint="@color/colorWhite"
+                    android:drawablePadding="10dp"/>
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -78,8 +106,10 @@
                     android:paddingTop="10dp"
                     android:paddingBottom="10dp"
                     android:textSize="25sp"
+                    android:textColor="@color/colorWhite"
                     android:layout_marginTop="20dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/boton"/>
             </LinearLayout>
         </ScrollView>
     </LinearLayout>
@@ -96,19 +126,22 @@
             android:layout_height="wrap_content"
             android:text="@string/privacy"
             android:textSize="11sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/and"
             android:textSize="11sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/conditions"
             android:textSize="11sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
@@ -117,5 +150,6 @@
         android:textSize="11sp"
         android:gravity="center_horizontal"
         android:layout_above="@+id/llDesc"
-        android:layout_marginBottom="3dp"/>
+        android:layout_marginBottom="3dp"
+        android:textColor="@color/colorWhite"/>
 </RelativeLayout>
