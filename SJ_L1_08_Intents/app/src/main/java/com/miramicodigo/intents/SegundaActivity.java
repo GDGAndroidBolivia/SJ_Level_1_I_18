@@ -24,5 +24,28 @@ public class SegundaActivity extends AppCompatActivity {
         etCajaTexto = (EditText) findViewById(R.id.etCajaTexto);
         btnRespuesta = (Button) findViewById(R.id.btnRespuesta);
 
+        Bundle bundle = getIntent().getExtras();
+
+        try {
+            tvTextoUno.setText(bundle.getString("valor1", ""));
+            tvTextoDos.setText(bundle.getString("valor2", ""));
+        }catch (Exception e) {
+        }
+
+        try {
+            etCajaTexto.setText(bundle.getString("valor3", ""));
+        } catch (Exception e) {
+        }
+
+        btnRespuesta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.putExtra("respuesta", etCajaTexto.getText().toString());
+                setResult(RESULT_OK, intent);
+                finish();
+            }
+        });
+
     }
 }
