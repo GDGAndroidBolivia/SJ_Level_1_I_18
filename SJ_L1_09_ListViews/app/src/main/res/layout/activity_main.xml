@@ -6,6 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.example.marcelo.sj_l1_09_listviews.MainActivity">
 
+    <ListView
+        android:id="@+id/lista_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+    </ListView>
 
 </RelativeLayout>
