@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Simpsons App</string>
+    <string name="Descripcion_Homero">Homer Jay Simpson es un personaje ficticio protagonista de la serie de televisión de dibujos animados Los Simpson. Es el padre de la familia protagonista y uno de los personajes centrales y más importantes de la serie.</string>
+    <string name="Descripcion_Marge">Marjorie "Marge" Bouvier Simpson es un personaje ficticio de la serie de televisión de dibujos animados Los Simpson. Es la esposa de Homer Simpson y madre de los tres hijos que ha tenido de esta unión amorosa: Bart, Lisa y Maggie.</string>
+    <string name="Descripcion_Bart">Bartholomew JoJo «Bart» Simpson​​, es uno de los personajes ficticios protagonistas de la serie de televisión de dibujos animados Los Simpson. Bart tiene 10 años y es el primogénito, y único hijo varón de Homer y Marge Simpson.</string>
+    <string name="Descripcion_Lisa">Lisa Marie Simpson ​​ es un personaje de la serie de televisión de dibujos animados Los Simpson. Es la hija mediana de Homer y Marge Simpson, y hermana de Bart y Maggie. Goza de notable protagonismo y complejidad en la serie.</string>
+    <string name="Descripcion_Maggie">Margaret Abigail "Maggie" Simpson es un personaje ficticio de la serie de televisión de dibujos animados Los Simpson. Es la tercera hija del matrimonio protagonista, Homer y Marge Simpson, y la más joven de ellos.</string>
+    <string name="Descripcion_Apu">Apu Nahasapeemapetilon ​ es un personaje ficticio de la serie de televisión Los Simpson. Es el dueño de una tienda en Springfield, el Kwik-E-Mart, al cual recurren diariamente los Simpson para comprar sus víveres.</string>
+    <string name="Descripcion_Burns">Charles Montgomery Burns, más conocido como el señor Burns o Monty Burns, es un personaje ficticio recurrente de la serie de televisión de dibujos animados Los Simpson, creada por Matt Groening. </string>
+    <string name="Descripcion_Krusty">Herschel Shmoikel Pinkus Yerocham Krustofsky, conocido como Krusty el payaso, ​ es un personaje de la serie de dibujos animados Los Simpson. Su voz original se la da Dan Castellaneta.</string>
+    <string name="Descripcion_Moe">Moe Szyslak es un personaje de ficción de la serie animada televisiva Los Simpson, propietario de la Taberna de Moe. La voz original es de Hank Azaria, ​ y apareció por primera vez en el episodio Simpsons Roasting on an Open Fire.​</string>
+    <string name="Descripcion_Milhouse">Milhouse Mussolini Van Houten es un personaje ficticio de la serie animada Los Simpson, creado por Matt Groening.</string>
+</resources>
