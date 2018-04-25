@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cesar.sj_l1_12_animaciones.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/paisaje"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iron_man"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/iron_man"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#595858"
+        android:gravity="center"
+        >
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3">
+            <Button
+                android:text="Find In"
+                android:onClick="findin"/>
+            <Button
+                android:text="Find Out"
+                android:onClick="findout"/>
+            <Button
+                android:text="Zoom In"
+                android:onClick="zoomin"/>
+            <Button
+                android:text="Zoom Out"
+                android:onClick="zoomout"/>
+            <Button
+                android:text="Rotate"
+                android:onClick="rotate"/>
+            <Button
+                android:text="Move"
+                android:onClick="move"/>
+            <Button
+                android:text="Slide down"
+                android:onClick="sildedouw"/>
+            <Button
+                android:text="slide up"
+                android:onClick="sildeup"/>
+            <Button
+                android:text="blink"
+                android:onClick="blink"/>
+
+
+
+
+
+
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
