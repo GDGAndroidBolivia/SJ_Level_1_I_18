@@ -34,4 +34,39 @@ public class MainActivity extends AppCompatActivity {
         animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.zoom_in);
         imag1.startAnimation(animation);
     }
+
+    public void zoomout(View view) {
+        animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.zoom_out);
+        imag1.startAnimation(animation);
+    }
+
+    public void rotate(View view) {
+        animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.rotate);
+        imag1.startAnimation(animation);
+    }
+
+    public void move(View view) {
+        animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.move);
+        imag1.startAnimation(animation);
+    }
+
+    public void sildedouw(View view) {
+        animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.slide_down);
+        imag1.startAnimation(animation);
+    }
+
+    public void slidedown(View view) {
+        animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.slide_down);
+        imag1.startAnimation(animation);
+    }
+
+    public void slideup(View view) {
+        animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.slide_up);
+        imag1.startAnimation(animation);
+    }
+
+    public void blink(View view) {
+        animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.blink);
+        imag1.startAnimation(animation);
+    }
 }

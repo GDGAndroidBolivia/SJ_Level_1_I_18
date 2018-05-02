@@ -12,7 +12,7 @@ public class Splashscreen extends AppCompatActivity {
     private Animation animation;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
+        getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splashscreen);
 
